@@ -1,0 +1,220 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .landing-page {
+    text-align: center;
+  }
+  .landing-page{
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1515965885361-f1e0095517ea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    /* opacity: 2.2; */
+  }
+  nav{
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    position: fixed;
+    z-index: 99;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .brand h1{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 20px;
+  }
+  nav .nav-content{
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+  }
+  .nav-content h3{
+    font-weight: 300;
+  }
+  .nav-content h3 button{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+  }
+  .hero-section {
+    color: white;
+    padding: 100px 20px;
+    opacity: 1.2;
+  }
+  
+  .hero-section h1 {
+    font-size: 4.8em;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .hero-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .hero-section button {
+    background-color: #e46f64;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .hero-section button:hover {
+    background-color: #e65c50;
+  }
+  
+  .about-us,
+  .features,
+  .testimonials,
+  .cta-section {
+    padding: 50px 20px;
+  }
+  .about-us{
+    line-height: 1.3;
+    color: #fff;
+  }
+  .about-us p{
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  .cta-section h2 {
+    margin-bottom: 20px;
+  }
+  .testimonials{
+    /* width: 100%; */
+    /* height: 50%; */
+    /* background-color: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: relative; */
+  }
+  /* .feature-item {
+    margin: 20px 0;
+  } */
+   .landing-page h2{
+    color: #fff;
+   }
+  .testimonials .testimonial-item1{
+    width: 20%;
+    height: 500px;
+    border-radius: 12px;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/test2-cfec4.appspot.com/o/watch-2.jpg?alt=media&token=eaa3b085-1eb3-4377-9c1d-346c8ddba465');
+    background-position: center;
+    background-size: cover;
+  }
+  .testimonials .testimonial-item1:hover{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/test2-cfec4.appspot.com/o/piercing-3.png?alt=media&token=3de93a6a-90c7-4059-abfc-976e566beec8');
+  }
+  .testimonials .testimonial-item2{
+    width: 20%;
+    height: 500px;
+    border-radius: 12px;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/test2-cfec4.appspot.com/o/watch-4.jpg?alt=media&token=9b4bccfa-4a17-486c-ad9f-bfb7892d077c');
+    background-position: center;
+    background-size: cover;
+  }
+  .testimonials .testimonial-item2:hover{
+    transition: ease-in;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/test2-cfec4.appspot.com/o/blonde-2.png?alt=media&token=792db4c2-b3e0-44ea-bf20-eae8f4e06ad8');
+  }
+  .testimonials .testimonial-item3{
+    width: 20%;
+    height: 500px;
+    border-radius: 12px;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/test2-cfec4.appspot.com/o/watch-3.jpg?alt=media&token=c999cc22-2617-4ab5-97e9-769f93c2feba');
+    background-position: center;
+    background-size: cover;
+  }
+  .testimonials .testimonial-item3:hover{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/test2-cfec4.appspot.com/o/piercing-2.png?alt=media&token=14db8dcb-0b34-43f6-8dd9-6fc73750c9cf');
+  }
+  .testimonials .testimonial-item4{
+    width: 20%;
+    height: 500px;
+    border-radius: 12px;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/test2-cfec4.appspot.com/o/piercing-1.png?alt=media&token=ef915a03-5b21-4514-a651-b737dd3a5740');
+    background-position: center;
+    background-size: cover;
+  }
+  .testimonials .testimonial-item4:hover{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/test2-cfec4.appspot.com/o/blonde-5.jpg?alt=media&token=96856026-34cb-48cb-b43b-22d95c630b4f');
+  }
+  .cta-section button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .cta-section button:hover {
+    background-color: #d8cac9;
+  }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    width:25%;
+    height: 30%;
+    background: rgb(66, 66, 66);
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .modal button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 12px;
+    /* background-color: #464444; */
+  }
+  
+  .close-button{
+    background-color: #ef3d30;
+    color: white;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    right: 180px;
+    cursor: pointer;
+  }
+
+
+  
